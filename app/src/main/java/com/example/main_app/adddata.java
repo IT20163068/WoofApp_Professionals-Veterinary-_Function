@@ -77,7 +77,7 @@ public class adddata extends AppCompatActivity {
                         mobile.setText("");
                         purl.setText("");
 
-                        Toast.makeText(getApplicationContext(), "Added Professionals Details", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Added Professionals Details", Toast.LENGTH_LONG).show();
 
                     }
                 })
@@ -85,7 +85,7 @@ public class adddata extends AppCompatActivity {
                     @Override
                     public void onFailure(@NonNull Exception e) {
 
-                        Toast.makeText(getApplicationContext(), "Could not Added", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Could not Added", Toast.LENGTH_LONG).show();
 
                     }
                 });
